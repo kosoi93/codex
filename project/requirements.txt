@@ -1,0 +1,4 @@
+# Project dependencies
+# Example:
+# aiogram==3.*
+# openai==1.*
