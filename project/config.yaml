@@ -1,0 +1,6 @@
+# Bot configuration settings
+# The API token is defined in bot.py as per project description.
+
+# Example settings
+use_webhook: false
+webhook_url: ""
