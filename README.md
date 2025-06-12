@@ -10,6 +10,8 @@ project/
 ├── bot.py            # Entry point that configures polling or webhook
 ├── handlers.py       # Handlers for button presses and routing
 ├── ai_client.py      # Wrapper over the AI API
+├── logger.py         # Logging configuration
+├── bot_commands.py   # Text for common commands
 ├── prompts.yaml      # Mapping from button labels to prompts
 ├── config.yaml       # Bot settings (token stored in bot.py)
 └── requirements.txt  # Dependencies list
@@ -24,7 +26,10 @@ project/
    pip install -r project/requirements.txt
    ```
 2. Set up your bot token inside `project/bot.py`.
-3. Implement the missing logic in the module files.
+3. Run the tests:
+   ```bash
+   pytest -q
+   ```
 4. Run the bot:
    ```bash
    python project/bot.py
