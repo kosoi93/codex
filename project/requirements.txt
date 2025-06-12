@@ -1,4 +1,4 @@
-# Project dependencies
-# Example:
-# aiogram==3.*
-# openai==1.*
+aiogram==3.*
+openai==1.*
+pytest==8.*
+PyYAML==6.*
